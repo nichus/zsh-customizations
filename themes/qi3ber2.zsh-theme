@@ -76,5 +76,5 @@ function {
   local return_status="%(?.   .$ec%3<<000%?$bc)"
 
   PROMPT="$lc$ul$ml$nc $hc%m$nc:$bc%y$ec♥$bc"'$(load_average)'" $lc$mr$ml$nc $pc"'$(_fishy_collapsed_wd)'"$nc $lc$vl$nc "'$(git_prompt_info)'$'\n'"$lc$ll$ml$nc $bc%D{%m/%d %H:%M} %! ${return_status} $lc$vl$nc %(!.#.$) "
-  PS2=$' %_{LINECOLOR}>${NONECOLOR} '
+  PS2=$' %_${lc}>${nc} '
 }
