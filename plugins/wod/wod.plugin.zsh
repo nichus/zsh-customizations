@@ -1,2 +1,2 @@
 wod=`dirname $0`/wod.py
-$wod
+alias wod="$wod"
